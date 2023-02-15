@@ -1,21 +1,10 @@
-package ejercicios;
+package ejercicios.ejercicio5;
 
 import java.util.Arrays;
 
-public class ejercicio5 {
-    /*
-     * Implementar la función: int[] sinRepetidos(int t[]), que construye y devuelve una tabla de la longitud apropiada,
-     * con los elementos de t, donde se han eliminado los datos repetidos.
-     */
+public class Funciones {
 
-    public static void main(String[] args) {
-
-        int[] tabla = {2, 3, 4, 5, 6, 2, 3, 4, 5};
-
-        System.out.println(Arrays.toString(sinRepetidos(tabla)));
-    }
-    
-    static int[] sinRepetidos(int[] tablaMain){
+    public static int[] sinRepetidos(int[] tablaMain){
 
         //Declaramos varaibles
         int[] tablaSinRepes = new int[0];

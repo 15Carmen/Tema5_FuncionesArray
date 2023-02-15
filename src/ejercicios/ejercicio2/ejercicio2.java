@@ -1,4 +1,4 @@
-package ejercicios;
+package ejercicios.ejercicio2;
 
 import java.util.Arrays;
 
@@ -11,16 +11,6 @@ public class ejercicio2 {
         int tabla[] = {10, 15, 23, 51, 0, 7, 59, 4, 13, 43};
 
         System.out.println("El array es: " + Arrays.toString(tabla));
-        System.out.println("El numero maximo del array es: " + maximo(tabla));
-    }
-
-    static int maximo(int[] tablaMain){
-        int max = 0;
-        for (int valor:tablaMain) {
-            if (valor > max){
-                max=valor;
-            }
-        }
-        return max;
+        System.out.println("El numero maximo del array es: " + Funciones.maximo(tabla));
     }
 }
